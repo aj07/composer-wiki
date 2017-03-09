@@ -23,3 +23,4 @@ This meeting is held at 4pm UTC (4pm UK, 11am ET, 8am PT).
 Meeting agenda/notes:
 
 * [[16th March 2017|Meeting-16th-March-2017]] (planned)
+* [[23rd March 2017|Meeting-23rd-March-2017]] (planned) *Special meeting, introduction to Fabric Composer*
