@@ -1,3 +1,5 @@
+Meeting to be held at 4pm UTC (4pm UK, 11am ET, 8am PT) on the 16th March 2017.
+
 Current agenda for this meeting:
 
 * What's new - what work has gone in recently, a "show and tell" of what we have achieved:
