@@ -1,4 +1,5 @@
 Meeting to be held at 4pm UTC (4pm UK, 11am ET, 8am PT) on the 23rd March 2017.
+The meeting is scheduled to be 1 hour long, although it may end earlier.
 
 Dial in details:
 * Phone number:
