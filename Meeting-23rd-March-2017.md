@@ -15,6 +15,7 @@ Online meeting details:
 Current agenda for this meeting:
 
 * Introduction to Fabric Composer
+  * Who are the Fabric Composer team?
   * What is Fabric Composer?
   * Walk through of a sample business network (vehicle auction demo).
   * Editor integration with Atom and VSCode.
