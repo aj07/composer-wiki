@@ -18,7 +18,7 @@ We have a biweekly meeting where we discuss:
 * Retrospective - what has been going well, or not so well, and how can we improve?
 * What's coming - what are we planning to do next, review designs for future work, etc.
 
-This meeting is held at 4pm UTC (4pm UK, 11am ET, 8am PT).
+This meeting is held at 4pm UTC (4pm UK, 12pm ET, 9am PT).
 
 Meeting agenda/notes:
 
