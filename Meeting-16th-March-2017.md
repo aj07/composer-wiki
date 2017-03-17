@@ -25,3 +25,18 @@ Current agenda for this meeting:
 * Retrospective - what has been going well, or not so well, and how can we improve?
 * What's coming - what are we planning to do next, review designs for future work, etc:
   * Design roadmap, review latest designs and plans.
+
+Meeting notes:
+
+* Introductions from the Fabric Composer team and other attendees:
+  * Fabric Composer: Simon S, Mark C, Dave K, Daniel S, Ed M, Caroline C
+  * Guests: Murdo A, Sumerian, Mike Z, Andrea T, Vipin B, Allan, Georg S, Mihai G, Ivan S, James W, Jeff G, Takuya A, Allan T, Jon D
+* Ed led a review of latest lo-fi designs for connection profile support here:
+  * Can view online here: https://xd.adobe.com/view/84d4145a-2828-4e96-b1e0-17345c44ba02
+  * What are connection profiles
+  * How we are enabling participants to invite other participants to their business networks
+  * Connection profiles are participant-neutral (no identities in the connection profile) and can be shared around.
+* Caroline demonstrated the latest playground features.
+* Dave discussed the progress with supporting Hyperledger Fabric v1.0:
+  * Good progress; code up and running with latest updates!
+* Simon demonstrated editor plugins for Atom and VSCode.
