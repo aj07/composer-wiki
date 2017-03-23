@@ -43,18 +43,18 @@ Meeting notes:
 
 Questions asked:
 
-The connection profile is an identity?
-You do have some kind of certificate or certificate path?
-In the model window is there some kind of secret?
-You are inviting someone else to be a part of your business network?
-How is that bootstrapped on to the fabric? The idea is to use the playground to deploy a business network.
-Their interaction with fabric how does the credential get established from composer?
-Ability to connect in different profiles
-If I have 1,000 people I don’t want to generate each profile separately or can this be done separately? Composer will allow you to generate ID’s without generating connection profiles.
-Starting to log into the composer playground getting a data error? 
-New UI looks nice... Any thoughts on generating / displaying forms based on the json instead of direct editing? (with the option to view / direct edit as well)?
-Is editor support something they would like to see? Has anyone built any editor plug ins before?
-I’m new to this product and new to fabric in general. For the playground if you are using an editor is there a way to package up what you have done in the editor and export it? Yes there is an import and export button.
-The way the connection profiles stored? How exactly are the stored on disk. Can they be seen is it clear parts of it in the clear and parts of it.
-Interested in how you make the rules for this network? Access control language discussion. 
-How do you input test data into the playground?
+* The connection profile is an identity?
+* You do have some kind of certificate or certificate path?
+* In the model window is there some kind of secret?
+* You are inviting someone else to be a part of your business network?
+* How is that bootstrapped on to the fabric? The idea is to use the playground to deploy a business network.
+* Their interaction with fabric how does the credential get established from composer?
+* Ability to connect in different profiles
+* If I have 1,000 people I don’t want to generate each profile separately or can this be done separately? Composer will allow you to generate ID’s without generating connection profiles.
+* Starting to log into the composer playground getting a data error? 
+* New UI looks nice... Any thoughts on generating / displaying forms based on the json instead of direct editing? (with the option to view / direct edit as well)?
+* Is editor support something they would like to see? Has anyone built any editor plug ins before?
+* I’m new to this product and new to fabric in general. For the playground if you are using an editor is there a way to package up what you have done in the editor and export it? Yes there is an import and export button.
+* The way the connection profiles stored? How exactly are the stored on disk. Can they be seen is it clear parts of it in the clear and parts of it.
+* Interested in how you make the rules for this network? Access control language discussion. 
+* How do you input test data into the playground?
