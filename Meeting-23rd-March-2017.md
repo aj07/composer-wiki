@@ -23,3 +23,7 @@ Current agenda for this meeting:
   * Exposing a business network via REST using LoopBack.
   * Generating sample applications using Yeoman.
   * Integration with existing systems using Node-RED.
+
+Attendees: Mark S, Allan T, ssaddem, Yuki, Nigel, Cedric, Gerhard D, Jon D, Vikram B, Eric V, James W, Takuya A, Murdo A, Mike Z
+
+YouTube link to recording: https://youtu.be/fdFUsrsv5iw
