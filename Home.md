@@ -18,9 +18,10 @@ We have a biweekly meeting where we discuss:
 * Retrospective - what has been going well, or not so well, and how can we improve?
 * What's coming - what are we planning to do next, review designs for future work, etc.
 
-This meeting is held at 4pm UTC (4pm UK, 12pm ET, 9am PT).
+This meeting is held at 4pm UTC (5pm UK, 12pm ET, 9am PT).
 
 Meeting agenda/notes:
 
-* [[16th March 2017|Meeting-16th-March-2017]] (planned)
-* [[23rd March 2017|Meeting-23rd-March-2017]] (planned) *Special meeting, introduction to Fabric Composer*
+* [[16th March 2017|Meeting-16th-March-2017]]
+* [[23rd March 2017|Meeting-23rd-March-2017]] *Special meeting, introduction to Fabric Composer*
+* [[30th March 2017|Meeting-30th-March-2017]] (planned)
