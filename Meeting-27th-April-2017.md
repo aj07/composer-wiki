@@ -15,6 +15,7 @@ Online meeting details:
 
 PROPOSED AGENDA ITEMS (Please comment and/or add more suggestions!  We'll choose from these nearer the date!)
 
+* `jorgedr` will discuss his experiences of using Composer.
 * How should we review Pull Requests?  Community discussion about how we should do this
 * Conference / meet-up attendance - discuss any events that Fabric Composer should come along to!  (If we get to meet community members who are attending, all the better!)
 * Open Source Heroes - who should we be looking to as models of how to do it right when we try to decide something for Fabric Composer?  (Community discussion)
