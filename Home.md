@@ -4,7 +4,7 @@ This wiki is used to track communications, meetings, and events for the Fabric C
 
 # How we communicate
 
-You can speak to us on [RocketChat](https://chat.hyperledger.org). We have two channels, `#fabric-composer` for user discussion, and `#fabric-composer-dev` for development discussion
+You can speak to us on [RocketChat](https://chat.hyperledger.org). We have two channels, `#composer` for user discussion, and `#composer-dev` for development discussion
 
 You can ask us questions on [StackOverflow](http://stackoverflow.com/questions/tagged/fabric-composer) using the `fabric-composer` tag.
 
