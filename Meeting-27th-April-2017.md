@@ -1,4 +1,4 @@
-Meeting to be held at 4pm UTC (5pm UK, 12pm ET, 9am PT) on the 30th March 2017.
+Meeting to be held at 4pm UTC (5pm UK, 12pm ET, 9am PT) on the 27th April 2017.
 The meeting is scheduled to be 1 hour long, although it may end earlier.
 
 Dial in details:
