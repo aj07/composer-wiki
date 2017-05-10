@@ -14,4 +14,8 @@ Online meeting details:
 * Password: composer
 
 Agenda:
-* TBC
+* @EdMoffatt to discuss the "getting started" story: https://github.com/hyperledger/composer/issues/912.
+* @14gracel to demonstrate progress with events: https://github.com/hyperledger/composer/issues/66.
+* @dselman to discuss the historian: https://github.com/hyperledger/composer/issues/55
+* @sstone1 to discuss REST API security: https://github.com/hyperledger/composer/issues/142
+* @caroline-church to discuss upcoming updates to the playground.
