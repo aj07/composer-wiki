@@ -26,3 +26,5 @@ Meeting agenda/notes:
 * [[23rd March 2017|Meeting-23rd-March-2017]] *Special meeting, introduction to Fabric Composer*
 * [[30th March 2017|Meeting-30th-March-2017]]
 * [[13th April 2017|Meeting-13th-April-2017]]
+* [[27th April 2017|Meeting-27th-April-2017]]
+* [[11th May 2017|Meeting-11th-May-2017]]
