@@ -478,7 +478,7 @@ Similarly you can create/read/update/delete Commodities by using the appropriate
 You are now ready to create a skeleton Angular web application to interact with your business network.
 
 Shut the `composer-rest-server` process down by pressing CTRL-C, and then follow the instructions to install the Yeoman generator for Hyperledger Composer:
-[https://fabric-composer.github.io/applications/genapp.html]()
+[https://fabric-composer.github.io/applications/genapp.html](https://fabric-composer.github.io/applications/genapp.html)
 
 Run the generator, selecting the options to generate an Angular application:
 
