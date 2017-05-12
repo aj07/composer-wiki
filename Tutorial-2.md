@@ -1,14 +1,14 @@
-## Tutorial 2 : Creating a Fabric Composer Solution
+## Tutorial 2 : Creating a Hyperledger Composer Solution
 
 *Note:* this tutorial was written against Composer v0.5.10 on Mac OS X running against Hyperledger Fabric v0.6.
 
-This tutorial will walk you through the steps required to build a Fabric Composer blockchain solution from scratch. In the space of a day or so you should be able to go from an idea for a disruptive blockchain innovation to something that is executing on Hyperledger Fabric!
+This tutorial will walk you through the steps required to build a Hyperledger Composer blockchain solution from scratch. In the space of a day or so you should be able to go from an idea for a disruptive blockchain innovation to something that is executing on Hyperledger Fabric!
 
-## Install Fabric Composer
+## Install Hyperledger Composer
 
-You should first make sure you have installed Fabric Composer and can run the [Quick Start](https://fabric-composer.github.io/installing/quickstart.html).
+You should first make sure you have installed Hyperledger Composer and can run the [Quick Start](https://fabric-composer.github.io/installing/quickstart.html).
 
-## Install VSCode and the Fabric Composer Extension
+## Install VSCode and the Hyperledger Composer Extension
 
 Install the [VSCode editor](https://code.visualstudio.com/) (an Open Source code editor). After installation launch VSCode and select `View > Command Palette...` then type `extensions` and select the `Extensions: Install Extensions` option. In the "Search Extensions in Marketplace" text field type `Fabric Composer` and install the extension. You may have to reload the extension to active it.
 
@@ -20,8 +20,8 @@ The key concept for Composer is the **business network definition (BND)**. It de
 
 The easiest way to get started is to clone an existing sample business network.
 
-    git clone https://github.com/fabric-composer/sample-networks.git
-    cp -r ./sample-networks/packages/basic-sample-network/ ./my-network
+    git clone https://github.com/hyperledger/composer-sample-networks.git
+    cp -r ./composer-sample-networks/packages/basic-sample-network/ ./my-network
 
 You should now have a folder called `my-network` that we can start to modify. Using VSCode open the `my-network` folder. You should see the file layout in the explorer.
 
@@ -37,7 +37,7 @@ The start of the `package.json` file should now look like this:
 {
   "name": "my-network",
   "version": "0.0.1",
-  "description": "My first fabric composer network",
+  "description": "My first hyperledger composer network",
   "scripts": {
     "prepublish": "mkdirp ./dist && composer archive create --sourceType dir --sourceName . -a ./dist/my-network.bna",
     "pretest": "npm run lint",
@@ -163,7 +163,7 @@ Creating Business Network Archive
 Looking for package.json of Business Network Definition in /Users/dselman/dev/git/my-network
 
 Found:
-Description:My first fabric composer network
+Description:My first hyperledger composer network
 Name:my-network
 Identifier:my-network@0.0.1
 
@@ -386,7 +386,7 @@ The owner of the ABC commodity should now be TRADER2.
 
 ![Commodity registry](https://github.com/hyperledger/composer/blob/master/packages/composer-website/jekylldocs/tutorials/tutorial2/commodity_registry_after.png)
 
-## Deploy to Fabric
+## Deploy to Hyperledger Fabric
 
 So, we've created our business network definition, written a unit test and interactively tested the solution in the Playground. Now it is time to deploy to a **real** blockchain! We are going to deploy the BNA file to Hyperledger Fabric v0.6, as used by the Quick Start we ran earlier to verify installation.
 
@@ -394,7 +394,7 @@ Switch to the terminal change to the `dist` folder containing the `my-network.bn
 
     composer network deploy -a my-network.bna -i admin -s Xurw3yU9zI0l
 
-After approximately 30 seconds the business network should have been deployed to your local Fabric. You should see output as follows:
+After approximately 30 seconds the business network should have been deployed to your local Hyperledger Fabric. You should see output as follows:
 
 ```
 pc52:dist dselman$ composer network deploy -a my-network.bna -i admin -s Xurw3yU9zI0l
@@ -402,7 +402,7 @@ pc52:dist dselman$ composer network deploy -a my-network.bna -i admin -s Xurw3yU
 Deploying business network from archive: my-network.bna
 Business network definition:
 	Identifier: my-network@0.0.1
-	Description: My first fabric composer network
+	Description: My first hyperledger fabric composer network
 
 ✔ Deploying business network definition. This may take a minute...
 
@@ -444,7 +444,7 @@ Then launch the server with the command:
 
     composer-rest-server
     
-Answer the questions posed at startup. These allow the composer-rest-server to connect to Fabric and configure how the REST API is generated.
+Answer the questions posed at startup. These allow the composer-rest-server to connect to Hyperledger Fabric and configure how the REST API is generated.
 
 ![Composer REST Server](https://github.com/hyperledger/composer/blob/master/packages/composer-website/jekylldocs/tutorials/tutorial2/composer-rest-server.png)
 
@@ -477,16 +477,16 @@ Similarly you can create/read/update/delete Commodities by using the appropriate
 
 You are now ready to create a skeleton Angular web application to interact with your business network.
 
-Shut the `composer-rest-server` process down by pressing CTRL-C, and then follow the instructions to install the Yeoman generator for Fabric Composer:
+Shut the `composer-rest-server` process down by pressing CTRL-C, and then follow the instructions to install the Yeoman generator for Hyperledger Composer:
 [https://fabric-composer.github.io/applications/genapp.html]()
 
 Run the generator, selecting the options to generate an Angular application:
 
 ```
-pc52:my-network dselman$ yo fabric-composer
-Welcome to the Fabric Composer Skeleton Application Generator
+pc52:my-network dselman$ yo hyperledger-composer
+Welcome to the Hyperledger Composer Skeleton Application Generator
 ? Please select the type of Application: Angular2 Application
-You can run this generator using: 'yo fabric-composer:angular'
+You can run this generator using: 'yo hyperledger-composer:angular'
 Welcome to the Angular2 skeleton app generator
 ? Do you want to connect to a running Business Network? Yes
 ? What is the name of the application you wish to generate?: my-app
@@ -518,12 +518,11 @@ The type:
 
 You should see the `composer-rest-server` start, and then Angular webpacks the web application and serves it at: [http://localhost:4200]()
 
-If you navigate to the page and press the "Assets" drop down at the top-right of the page you can see the instances of Commodity stored on the Fabric in the table. You can create new instances using the "Add Asset" button. Note that the Angular skeleton does not yet allow you to create Participants, so you will need to create a test Trader instance to act as the owner of the Commodity using the Loopback Swagger UI before you can create a Commodity.
+If you navigate to the page and press the "Assets" drop down at the top-right of the page you can see the instances of Commodity stored on the Hyperledger Fabric in the table. You can create new instances using the "Add Asset" button. Note that the Angular skeleton does not yet allow you to create Participants, so you will need to create a test Trader instance to act as the owner of the Commodity using the Loopback Swagger UI before you can create a Commodity.
 
 ![Add commodity](https://github.com/hyperledger/composer/blob/master/packages/composer-website/jekylldocs/tutorials/tutorial2/skeleton_add_asset.png)
 
 ## Congratulations!
 
 Well done, you've now completed this tutorial and I hope you now have a much better idea how the capabilities fit together. You can start hacking on the skeleton Angular application to create the next industry defining blockchain-based application!
-
 
