@@ -19,3 +19,6 @@ Agenda:
 * @dselman to discuss the historian: https://github.com/hyperledger/composer/issues/55
 * @sstone1 to discuss REST API security: https://github.com/hyperledger/composer/issues/142
 * @caroline-church to discuss upcoming updates to the playground.
+
+Recording:
+https://youtu.be/igi1zuCg1lQ
