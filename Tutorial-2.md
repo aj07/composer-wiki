@@ -352,7 +352,7 @@ Re-generate the BNA file using the command:
 
     npm install
     
-You can then navigate to [http://composer-playground.mybluemix.net]() and import the BNA file into the Playground using the "Import/Replace" button at the bottom left of the screen. Navigate to the `dist/my-network.bna` file and upload it, then press the "Deploy" button.
+You can then navigate to [http://composer-playground.mybluemix.net](http://composer-playground.mybluemix.net) and import the BNA file into the Playground using the "Import/Replace" button at the bottom left of the screen. Navigate to the `dist/my-network.bna` file and upload it, then press the "Deploy" button.
 
 ![Import/Replace business network archive](https://github.com/hyperledger/composer/blob/master/packages/composer-website/jekylldocs/tutorials/tutorial2/import_replace.png)
 
@@ -525,4 +525,3 @@ If you navigate to the page and press the "Assets" drop down at the top-right of
 ## Congratulations!
 
 Well done, you've now completed this tutorial and I hope you now have a much better idea how the capabilities fit together. You can start hacking on the skeleton Angular application to create the next industry defining blockchain-based application!
-
