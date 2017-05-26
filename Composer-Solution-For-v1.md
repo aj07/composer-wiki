@@ -537,3 +537,4 @@ If you navigate to the page and press the "Assets" drop down at the top-right of
 ## Congratulations!
 
 Well done, you've now completed this tutorial and I hope you now have a much better idea how the capabilities fit together. You can start hacking on the skeleton Angular application to create the next industry defining blockchain-based application!
+
