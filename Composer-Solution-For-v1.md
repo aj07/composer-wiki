@@ -6,7 +6,7 @@ This tutorial will walk you through the steps required to build a Hyperledger Co
 
 ## Install Hyperledger Composer
 
-You should first make sure you have installed Hyperledger Composer and can run the [Quick Start](https://fabric-composer.github.io/installing/quickstart.html). (**In step 2 of the [Quick Start](https://fabric-composer.github.io/installing/quickstart.html), install the hlfv1 sample, not the first one**)
+You should first make sure you have installed Hyperledger Composer and can run the [Quick Start](https://fabric-composer.github.io/installing/quickstart.html). (**In step 2 of the [Quick Start](https://fabric-composer.github.io/installing/quickstart.html), install the hlfv1 sample, not the v0.6 sample**)
 
 ## Install VSCode and the Hyperledger Composer Extension
 
@@ -52,7 +52,7 @@ The start of the `package.json` file should now look like this:
   ...
 ```
 
-Change the `name` in `package.json` to whatever you want to call your network. (MUST BE IN lower-case. Will bite you later if any is upper case) and update the description in `package.json` to something that makes sense for your network
+Change the `name` in `package.json` to whatever you want to call your network. (MUST BE IN lower-case. Will bite you later if the name contains any upper case character) and update the description in `package.json` to something that makes sense for your network.
 
 ## Define Domain Model
 
@@ -390,12 +390,12 @@ The owner of the ABC commodity should now be TRADER2.
 
 ## Deploy to Hyperledger Fabric
 
-So, we've created our business network definition, written a unit test and interactively tested the solution in the Playground. Now it is time to deploy to a **real** blockchain! We are going to deploy the BNA file to Hyperledger Fabric v0.6, as used by the Quick Start we ran earlier to verify installation.
+So, we've created our business network definition, written a unit test and interactively tested the solution in the Playground. Now it is time to deploy to a **real** blockchain! We are going to deploy the BNA file to Hyperledger Fabric v1, as used by the Quick Start we ran earlier to verify installation.
 
 Switch to the terminal change to the `dist` folder containing the `my-network.bna` file and type:
   
-`composer network deploy --archiveFile basic-sample-network.bna  -p hlfv1 -i admin -s adminpw`
-  - basic-sample-network.bna: The .bna file in the cwd
+`composer network deploy --archiveFile my-network.bna -p hlfv1 -i admin -s adminpw`
+  - my-network.bna: The .bna file in the cwd
   - hlfv1: The connection profile to use
   - admin: The user name of the admin is `admin`
 
@@ -420,7 +420,7 @@ You can verify that the network has been deployed by typing:
 `composer network ping -n my-network -p hlfv1 -i admin -s adminpw`
   - my-network: The name of the network to test
   - admin: The user name of the admin is `admin`
-  - adminpw: The password of the user admin 
+  - adminpw: The password of the user, admin 
     
 Which should give the following output:
 
@@ -446,17 +446,18 @@ First install the composer-rest-server:
 
     npm install -g composer-rest-server
 
-Note: if you have already installed the composer-rest-server please run `npm uninstall -g composer-rest-server` first.
+Note: if you have already installed the composer-rest-server please run `npm uninstall -g composer-rest-server` first. Then create rest api using one of the methods below:
 
-Then launch the server with the command:
 
-    composer-rest-server
+- Method 1: Launch the server with the command:
+
+    `composer-rest-server`
     
 Answer the questions posed at startup. These allow the composer-rest-server to connect to Hyperledger Fabric and configure how the REST API is generated.
 
-    Alternatively, use this one liner:
+- Method 2: Use this one liner:
 
-    `composer-rest-server -p hlfv1 -n <name my-network -i admin -s adminpw -N never -P`
+    `composer-rest-server -p hlfv1 -n my-network -i admin -s adminpw -N never -P`
 
 ![Composer REST Server](https://github.com/hyperledger/composer/blob/master/packages/composer-website/jekylldocs/tutorials/tutorial2/composer-rest-server.png)
 
