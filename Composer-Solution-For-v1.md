@@ -1,6 +1,6 @@
 ## Tutorial 2 : Creating a Hyperledger Composer Solution
 
-*Note:* this tutorial was written against Composer v0.7.2 on Mac OS X running against Hyperledger Fabric v1.
+*Note:* This tutorial was written against Composer v0.7.2 on Mac OS X running against Hyperledger Fabric v1.
 
 This tutorial will walk you through the steps required to build a Hyperledger Composer blockchain solution from scratch. In the space of a day or so you should be able to go from an idea for a disruptive blockchain innovation to something that is executing on Hyperledger Fabric!
 
@@ -537,4 +537,3 @@ If you navigate to the page and press the "Assets" drop down at the top-right of
 ## Congratulations!
 
 Well done, you've now completed this tutorial and I hope you now have a much better idea how the capabilities fit together. You can start hacking on the skeleton Angular application to create the next industry defining blockchain-based application!
-
